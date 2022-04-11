@@ -1,0 +1,22 @@
+.report {
+    background-color: aliceblue;
+    width: 400px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    border-radius: 8px;
+}
+.report label{
+    margin: 15px;
+}
+.report textarea{
+    margin: 20px;
+}
+.report button{
+    color: red;
+    background: black;
+    border: none;
+    width: 55px;
+    border-radius: 8px;
+}

@@ -1,0 +1,69 @@
+.signupbox{
+    font-family: sans-serif;
+    width: 480px;
+    height: 645px;
+    background:white;
+    color:black;
+    top: 58%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
+}
+.signupbox h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: left;
+    font-size: 22px;
+    color:black;
+    margin-left: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.signupbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+.signupbox .inbox{
+    width:  100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(34, 27, 27);
+    font-size: 16px;
+ }
+ .signupbox .save{
+    border:none;
+    outline: none;
+    height: 40px;
+    width: 420px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+.signupbox .save:hover{
+    cursor: pointer;
+    background: lightsalmon;
+    color: #000;
+}
+.signupbox a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color:green ;
+     
+}
+
+.signupbox a:hover{
+    color:greenyellow ;
+}

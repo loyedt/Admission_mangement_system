@@ -1,0 +1,79 @@
+.cuwrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1400px;
+    display: flex;
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
+    border-radius: 20px;
+  }
+  .cuwrapper .left{
+    width: 80%;
+    background: rgb(117, 105, 105);
+    padding: 30px 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: #fff;
+  }
+  .cuwrapper .left h3{
+      padding-bottom: 10px;
+  }
+  .cuwrapper .left h4{
+    margin-bottom: 10px;
+  }
+  .cuwrapper .left button{
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background:black ;
+    color: white;
+    padding: 8px;
+  }
+  .cuwrapper .left button:hover{
+    background:rgb(218, 146, 146) ;
+  }
+  .cuwrapper .right{
+    width: 20%;
+    background: #fff;
+    padding: 30px 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .cuwrapper .right .upinbox{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    background: transparent;
+    outline: none;
+  }
+  .cuwrapper .right button{
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    background:black ;
+    color: white;
+    padding: 8px;
+  }
+  .cuwrapper .right button:hover{
+    background:rgb(218, 146, 146) ;
+  }
+.cuwrapper .left .cutab{
+    display: table;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.cuwrapper .left .cutab .curow{
+    display: table-row;
+}
+.cuwrapper .left .cutab .curow .cucell{
+    display: table-cell;
+    padding-right: 20px;
+}
+.cuwrapper .left .cutab .curow .cucell label{
+    text-align: left;
+}
+.cuwrapper .left .cutab .curow .cucell input{
+    width: 75px;
+}

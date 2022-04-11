@@ -1,0 +1,71 @@
+.loginbox {
+    font-family: sans-serif;
+    width: 320px;
+    height: 350px;
+    background:white;
+    color:black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
+}
+.loginbox h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: left;
+    font-size: 22px;
+    color:black;
+    margin-left: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+ .loginbox .inbox{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(34, 27, 27);
+    font-size: 16px;
+
+ }
+ .loginbox .save{
+    border:none;
+    outline: none;
+    height: 40px;
+    width: 260px;
+    background: #f34c4c;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+    
+}
+.loginbox .save:hover{
+    cursor: pointer;
+    background: lightsalmon;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color:green ;
+     margin-bottom: 15px;
+}
+
+.loginbox a:hover{
+    color:greenyellow ;
+}

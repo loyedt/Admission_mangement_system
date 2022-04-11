@@ -1,0 +1,82 @@
+.csignupbox {
+    font-family: sans-serif;
+    width: 600px;
+    height: 910px;
+    background:white;
+    color:black;
+    top: 76%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 30px;
+    padding-top: 15px;
+    margin-top: 0;
+}
+.csignupbox h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: left;
+    font-size: 22px;
+    color:black;
+    margin-left: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.csignupbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+.csignupbox input{
+    width:  100%;
+    margin-bottom: 20px;
+}
+.csignupbox .inbox{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(34, 27, 27);
+    font-size: 16px;
+ }
+ .csignupbox .save{
+    border:none;
+    outline: none;
+    height: 40px;
+    width: 540px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.csignupbox .save:hover{
+    cursor: pointer;
+    background: lightsalmon;
+    color: #000;
+}
+.csignupbox a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color:green ;
+     
+}
+
+.csignupbox a:hover{
+    color:greenyellow ;
+}
+
+.csignupbox .cntab {
+    display: table;
+    width: 100%;
+}
+.csignupbox .cntab .cnrow {
+    display: table-row;
+}
+.csignupbox .cntab .cnrow .cncell{
+    display: table-cell;
+    padding-right: 20px;
+}
